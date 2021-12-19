@@ -1,0 +1,43 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("https://i.ibb.co/tDXw1gn/33-BCE9-D7-48-C3-403-F-B936-07-A6392-EBE00.jpg");
+    z-index:-1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+.carousel-caption1 {
+    position: initial;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    margin-top: 50px;
+    padding: 18%;
+    color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+   
+}
+.bg {
+    background-color: black;
+    opacity: .8;
+    height: auto;
+    color: white;
+}
+
