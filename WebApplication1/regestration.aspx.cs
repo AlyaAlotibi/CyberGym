@@ -41,7 +41,7 @@ namespace WebApplication1
 
                 SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
                 sc.Port = 587;
-                sc.Credentials = new NetworkCredential("alotibiAlya@gmail.com", "@Shood12345");
+                sc.Credentials = new NetworkCredential("alotibiAlya@gmail.com", "@");
                 sc.EnableSsl = true;
                 sc.Send(ms);
                 signUpNewUser();
@@ -109,6 +109,10 @@ namespace WebApplication1
             {
                 Response.Write("<script>alert('" + ex.Message + "');</script>");
                 return false;
+            }
+            finally
+            {
+                cr.con.Close();
             }
         }
 

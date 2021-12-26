@@ -75,6 +75,10 @@ namespace WebApplication1
 
 
             }
+            finally
+            {
+                cr.con.Close();
+            }
         
 
         }
