@@ -35,7 +35,7 @@ namespace WebApplication1
 
                 SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
                 sc.Port = 587;
-                sc.Credentials = new NetworkCredential("alotibiAlya@gmail.com", "@Shood12345");
+                sc.Credentials = new NetworkCredential("alotibiAlya@gmail.com", "@");
                 sc.EnableSsl = true;
                 sc.Send(ms);
                 lblOut.Text = "Email was sent! we will reply as soon as possible";
